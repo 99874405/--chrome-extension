@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "这是一个插件学习的项目",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "pages/popup/index.html"
+    },
+    "options_page": "pages/options/index.html",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}
